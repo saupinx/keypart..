@@ -1759,3 +1759,12 @@ html[data-theme="dark"] .mobile-menu__controls {
     font-size: 13px !important;
   }
 }
+/* ===== Mobile background fix ===== */
+@media (max-width: 960px), (hover: none) and (pointer: coarse) {
+  .hero,
+  .section-dark-image {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+}
