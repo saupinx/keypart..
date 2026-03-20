@@ -1768,3 +1768,48 @@ html[data-theme="dark"] .mobile-menu__controls {
     background-size: cover !important;
   }
 }
+/* ===== Montserrat typography ===== */
+body,
+input,
+textarea,
+select,
+button,
+p,
+li,
+span,
+small,
+label,
+td,
+th,
+a {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6,
+.hero-copy h1,
+.section-title,
+.hero-form h2,
+.contact-banner h2,
+.value-item h3,
+.bullet-block h4,
+.included-item h3,
+.split-copy h3,
+.site-footer h4,
+.tariffs-table thead th,
+.stats-grid article strong,
+.ticker,
+.logo-chip {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+  font-weight: 600 !important;
+}
+
+strong,
+b,
+.btn,
+.main-nav a,
+.lang-switch__btn,
+.tariffs-table thead th span {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif !important;
+  font-weight: 700 !important;
+}
